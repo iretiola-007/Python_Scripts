@@ -1,5 +1,5 @@
 def countdown(n):
-    if n == 0 l:
+    if n == 0:
         print("Blast off!")
     else:
         time.sleep(1) # 1 second delay
