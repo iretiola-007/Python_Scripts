@@ -10,10 +10,10 @@ print("Welcome to Launcher Countdown!")
 
 i = str(input("Enter 'y' to continue: "))
 
-// The loop to continue using the countdown 
+# The loop to continue using the countdown 
 while i.lower() == 'y':
     t = int(input("Countdown from what number? "))
     countdown(t)
     i = str(input("Enter 'y' to continue: "))
 
-// To exit the loop, type 'n' or any other character apart from 'y'.
+# To exit the loop, type 'n' or any other character apart from 'y'.
