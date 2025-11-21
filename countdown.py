@@ -1,19 +1,25 @@
+
+import time
+
 def countdown(n):
     if n == 0:
         print("Blast off!")
     else:
-        time.sleep(1) # 1 second delay
         print(n)
+        time.sleep(1)  # 1 second delay
         countdown(n - 1)
 
 print("Welcome to Launcher Countdown!")
 
-i = str(input("Enter 'y' to continue: "))
+while True:
+    i = input("Enter 'y' to continue or any other key to quit: ").lower()
+    if i != 'y':
+        print("Exiting Countdown Program.")
+        break
 
-# The loop to continue using the countdown 
-while i.lower() == 'y':
-    t = int(input("Countdown from what number? "))
-    countdown(t)
-    i = str(input("Enter 'y' to continue: "))
+    try:
+        t = int(input("Countdown from what number? "))
+        countdown(t)
+    except ValueError:
+        print("Please enter a valid number.")
 
-# To exit the loop, type 'n' or any other character apart from 'y'.
