@@ -8,6 +8,6 @@ class Person:
 name = input("Name? ")
 age = input("Age? ")
         
-person_1 = Person(name, 18)
+person_1 = Person(name, age)
 person_1.intro()
 
