@@ -6,4 +6,4 @@ def greet(self):
 greet("Iretiola")
 
 # a simple module
-# further notes later
+# further notes later 
