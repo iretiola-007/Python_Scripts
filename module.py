@@ -1,9 +1,11 @@
-def greet(self):
+class Greet:
     def __init__(self, name):
         self.name = name
-    print(f"Hello, {self.name}!")
+    def msg(self ):
+        print(f"Hello, {self.name}!")
     
-greet("Iretiola")
+Greet("Iretiola").msg()
+
 
 # a simple module
 # further notes later 
