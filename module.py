@@ -1,7 +1,7 @@
 def greet(self):
     def __init__(self, name):
         self.name = name
-    print("Hello, {self.name}!")
+    print(f"Hello, {self.name}!")
     
 greet("Iretiola")
 
