@@ -1,5 +1,6 @@
 import random
 
+
 print("Guess the Number Game!")
 
 # computer picks a random number between 1 and 100
@@ -8,6 +9,8 @@ attempts = 0
 
 print("I'm thinking of a number between 1 and 100.")
 
+# looping while user guess is incorrect
+# handling errors in user input
 while True:
     try:
         guess = int(input("Enter your guess: "))
