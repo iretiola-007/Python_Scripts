@@ -6,7 +6,7 @@ class Greet:
         self.name = name
     
     # define a method in your blueprint
-    def msg(self ):
+    def msg(self):
         print(f"Hello, {self.name}!")
 
 # get user input
