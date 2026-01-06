@@ -17,5 +17,5 @@ sort() # call the function
 # the original list is printed before the sorted list
 
 
-# in order to avoid using this long function, use this below
+# in order to avoid using this long function, use this one-line code below
 print(sorted(listt))
