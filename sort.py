@@ -15,3 +15,7 @@ def sort():
 sort() # call the function
 
 # the original list is printed before the sorted list
+
+
+# in order to avoid using this long function, use this below
+print(sorted(listt))
